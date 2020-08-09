@@ -1,0 +1,33 @@
+custom domain
+{"Attributes": [
+ {"AttributeName": "item_id","AttributeType": "string"},
+ {"AttributeName": "item_category","AttributeType": "string"},
+ {"AttributeName": "dept_id","AttributeType": "string"},
+ {"AttributeName": "cat_id","AttributeType": "string"},
+ {"AttributeName": "store_id","AttributeType": "string"},
+ {"AttributeName": "state_id","AttributeType": "string"},
+ {"AttributeName": "timestamp","AttributeType": "timestamp"},
+ {"AttributeName": "target_value","AttributeType": "float"},
+ {"AttributeName": "sell_price","AttributeType": "string"},
+ {"AttributeName": "tm_w_end","AttributeType": "string"}
+]}
+
+retail domain target dataset
+{"Attributes": [
+ {"AttributeName": "item_id","AttributeType": "string"},
+ {"AttributeName": "item_category","AttributeType": "string"},
+ {"AttributeName": "dept_id","AttributeType": "string"},
+ {"AttributeName": "cat_id","AttributeType": "string"},
+ {"AttributeName": "store_id","AttributeType": "string"},
+ {"AttributeName": "state_id","AttributeType": "string"},
+ {"AttributeName": "timestamp","AttributeType": "timestamp"},
+ {"AttributeName": "demand","AttributeType": "float"},
+ {"AttributeName": "tm_w_end","AttributeType": "string"}
+]}
+
+retail domain related dataset
+{"Attributes": [
+ {"AttributeName": "item_id","AttributeType": "string"},
+ {"AttributeName": "timestamp","AttributeType": "timestamp"},
+ {"AttributeName": "price","AttributeType": "float"}
+]}
